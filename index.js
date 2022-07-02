@@ -7,6 +7,8 @@ const {
 const port = 3003;
 const app = express();
 
+app.use(express.json());
+
 app.get('/', (req, res) => {
   res.send('Yard Sale API');
 });
