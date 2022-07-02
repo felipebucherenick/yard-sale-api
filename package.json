@@ -1,0 +1,38 @@
+{
+  "name": "yard-sale-api",
+  "version": "1.0.0",
+  "description": "Yard Sale API Rest with express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipebucherenick/yard-sale-api.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node",
+    "Express"
+  ],
+  "author": "Felipe Bucherenick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipebucherenick/yard-sale-api/issues"
+  },
+  "homepage": "https://github.com/felipebucherenick/yard-sale-api#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^1.19.4",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "express": "^4.18.1",
+    "faker": "^6.6.6"
+  }
+}
