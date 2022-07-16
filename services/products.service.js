@@ -10,8 +10,8 @@ class ProductsService {
   }
 
   async findAll() {
-    const data = await models.Products.findAll();
-    return data;
+    const products = await models.Products.findAll();
+    return products;
   }
 
   async findOne(id) {

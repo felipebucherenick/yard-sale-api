@@ -1,6 +1,5 @@
 const express = require('express');
 
-const router = express.Router();
 const ProductsService = require('../services/products.service');
 const {
   createProductSchema,
@@ -9,6 +8,7 @@ const {
 } = require('../schemas/products.schema');
 const validatorHandler = require('../middlewares/validator.handler');
 
+const router = express.Router();
 const service = new ProductsService();
 
 router.post(
